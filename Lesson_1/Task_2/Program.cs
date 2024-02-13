@@ -18,3 +18,10 @@ double product_3 = d_x * l_d;
 Console.WriteLine(product_1);
 Console.WriteLine(product_2);
 Console.WriteLine(product_3);
+
+int quotient = i_a / i_b;
+Console.WriteLine(quotient);
+
+i_a = 7;
+double quotient_2 = i_a / d_x;
+Console.WriteLine(quotient_2);
