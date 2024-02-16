@@ -16,18 +16,33 @@
 // Примеры
 // 4 => -4, -3, -2, -1, 0, 1, 2, 3, 4
 
-int int_num = 3;
-int min = -int_num;
+// int int_num = 3;
+// int min = -int_num;
 
-while(min <= int_num){
-    Console.WriteLine(min+" ");
-    min++;
-}
+// while(min <= int_num){
+//     Console.WriteLine(min+" ");
+//     min++;
+// }
 
 // То же самое только через for
 
-int int_num = 3;
+// int int_num = 3;
 
-for(int min = -int_num; min <= int_num; min++){
-    Console.WriteLine(min+" ");
-}
+// for(int min = -int_num; min <= int_num; min++){
+//     Console.WriteLine(min+" ");
+// }
+
+// Задание 3
+// Напишите программу, которая принимает на вход
+// трёхзначное целое число и на выходе показывает сумму
+// первой и последней цифры этого числа.
+// 456 => 10
+// 782 => 9
+// 918 => 17
+
+int number = 394;
+int sim_1 = number / 100;
+int sim_3 = number % 10;
+int result = sim_3 + sim_1;
+
+Console.WriteLine("Сумма 1 и 3 цифры числа = " + result);
