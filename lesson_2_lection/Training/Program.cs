@@ -13,4 +13,4 @@ Console.WriteLine(arr[4]);
 
 int[] arr2 = new int[5] { 77, 9, 4, 5, 8 };
 
-int[] arr3 = { 2, 3, 6, 8, 5, 0, 9 }
+int[] arr3 = { 2, 3, 6, 8, 5, 0, 9 };
